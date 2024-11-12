@@ -1,0 +1,15 @@
+[libraries]
+jetty-bom = { module = "org.eclipse.jetty:jetty-bom" }
+jetty-server = { module = "org.eclipse.jetty:jetty-server" }
+jetty-servlet = { module = "org.eclipse.jetty:jetty-servlet" }
+
+guava = { module = "com.google.guava:guava" }
+
+httpclient = { module = "org.apache.httpcomponents:httpclient" }
+
+junit-api = { module = "org.junit.jupiter:junit-jupiter-api" }
+junit-engine = { module = "org.junit.jupiter:junit-jupiter-engine" }
+junit-launcher = { module = "org.junit.platform:junit-platform-launcher" }
+
+# Gradle plugin dependencies
+gradlex-jvm-dependency-conflict-resolution = { module = "org.gradlex:jvm-dependency-conflict-resolution"}
